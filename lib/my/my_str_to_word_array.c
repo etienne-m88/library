@@ -16,7 +16,7 @@ int count_separator(char const *str)
         count++;
     return (count);
 }
-
+/*
 int space_separator(char const *str)
 {
     int i = 0;
@@ -30,7 +30,7 @@ int space_separator(char const *str)
         count = count - 1;
     return (count);
 }
-
+*/  
 char **my_str_to_word_array(char *str)
 {
     int count = 0;

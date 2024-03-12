@@ -17,7 +17,7 @@ all: 	$(NAME)
 
 $(NAME):	$(OBJ)
 	make -C lib/my
-	gcc -g -o $(NAME) $(SRC) $(CFLAGS)
+	gcc -o $(NAME) $(SRC) $(CFLAGS)
 
 clean:
 	rm -f *.o
